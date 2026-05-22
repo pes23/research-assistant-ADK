@@ -1,0 +1,30 @@
+# 가상환경
+venv/
+.venv/
+env/
+
+# API 키
+.env
+*.env
+
+# 캐시 (논문 파싱 결과 — 개인 논문이므로 제외)
+cache/
+*.json
+
+# PDF 논문 파일 (저작권)
+data/*.pdf
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
