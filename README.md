@@ -23,7 +23,7 @@ research-assistant-ADK/
 │   └── paper_tools.py
 ├── data/          # PDF 논문 직접 추가 필요
 ├── cache/         # 자동 생성
-├── app.py
+├── main.py
 ├── config.py
 ├── .env.example
 ├── requirements.txt
@@ -34,7 +34,7 @@ research-assistant-ADK/
 
 1. 저장소 클론
 \```bash
-git clone https://github.com/your-id/research-assistant.git
+git clone https://github.com/pes23/research-assistant.git
 cd research-assistant
 \```
 
@@ -58,7 +58,7 @@ cp .env.example .env
 
 5. 실행
 \```bash
-python app.py --pdf data/your_paper.pdf
+python main.py --pdf data/your_paper.pdf
 \```
 
 ## Example Queries
