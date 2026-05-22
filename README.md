@@ -1,11 +1,18 @@
 Multi-agent system for research paper analysis using Google ADK.
 
+## Agents 
+- coordinator_agent
+- summary_agent
+- qa_agent
+- critic_agent
+- insight_agent
+
 ## Patterns Implemented
-- Tool Use (Ch.5)
-- Routing (Ch.2)
-- Multi-Agent (Ch.7)
-- Memory Management (Ch.8)
-- Exception Handling & Recovery (Ch.12)
+- Tool Use
+- Routing 
+- Multi-Agent 
+- Memory Management 
+- Exception Handling & Recovery 
 
 ## Project Structure
 \```
@@ -34,8 +41,8 @@ research-assistant-ADK/
 
 1. 저장소 클론
 \```bash
-git clone https://github.com/pes23/research-assistant.git
-cd research-assistant
+git clone https://github.com/pes23/research-assistant-ADK.git
+cd research-assistant-ADK
 \```
 
 2. 가상환경 설치
