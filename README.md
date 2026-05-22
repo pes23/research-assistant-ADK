@@ -9,7 +9,7 @@ Multi-agent system for research paper analysis using Google ADK.
 
 ## Project Structure
 \```
-smart-paper-assistant/
+research-assistant-ADK/
 ├── agents/
 │   ├── coordinator.py
 │   ├── summary_agent.py
