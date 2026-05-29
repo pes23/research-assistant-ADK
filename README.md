@@ -1,18 +1,6 @@
-Multi-agent system for research paper analysis using Google ADK.
-
-## Agents 
-- coordinator_agent
-- summary_agent
-- qa_agent
-- critic_agent
-- insight_agent
-
-## Patterns Implemented
-- Tool Use
-- Routing 
-- Multi-Agent 
-- Memory Management 
-- Exception Handling & Recovery 
+본 시스템은 Google ADK(Agent Development Kit)와 Gemini 모델을 활용한 연구 논문 분석 멀티 에이전트 시스템이다.
+논문 PDF를 입력하면 요약, 비판적 분석, 기술 질의응답, 인사이트 도출 기능을 제공한다.
+개발 프레임워크: Google ADK (Google Gemini API 연동) 
 
 ## Project Structure
 \```
@@ -37,8 +25,21 @@ research-assistant-ADK/
 └── README.md
 \```
 
-## Setup
+## 에이전트 구성 및 역할 
+1. coordinator_agent
+2. summary_agent
+3. qa_agent
+4. critic_agent
+5. insight_agent
 
+## 적용된 에이전틱 디자인 패턴
+1. Tool Use
+2. Routing 
+3. Multi-Agent 
+4. Memory Management 
+5. Exception Handling & Recovery 
+
+## Setup
 1. 저장소 클론
 \```bash
 git clone https://github.com/pes23/research-assistant-ADK.git
