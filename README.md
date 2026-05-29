@@ -3,7 +3,6 @@
 개발 프레임워크: Google ADK (Google Gemini API 연동) 
 
 ## Project Structure
-\```
 research-assistant-ADK/
 ├── agents/
 │   ├── coordinator.py
@@ -23,7 +22,6 @@ research-assistant-ADK/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-\```
 
 ## 에이전트 구성 및 역할 
 1. coordinator_agent
@@ -41,33 +39,25 @@ research-assistant-ADK/
 
 ## Setup
 1. 저장소 클론
-\```bash
+bash
 git clone https://github.com/pes23/research-assistant-ADK.git
 cd research-assistant-ADK
-\```
 
 2. 가상환경 설치
-\```bash
+bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-\```
 
 3. 환경변수 설정
-\```bash
 cp .env.example .env
 # .env 파일에 GEMINI_API_KEY 입력
-\```
 
 4. PDF 논문 추가
-\```bash
 # data/ 폴더에 분석할 PDF 파일 저장
-\```
 
 5. 실행
-\```bash
 python main.py --pdf data/your_paper.pdf
-\```
 
 ## Example Queries
 - `summarize this paper`
