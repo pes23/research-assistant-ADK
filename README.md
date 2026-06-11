@@ -39,24 +39,27 @@ research-assistant-ADK/
 5. Exception Handling & Recovery: API 호출 실패 시 retry, exponential backoff. 재시도 성공 시 정상 응답하며 최대 횟수 초과 시 Fallback 메시지를 출력한다.
 
 ## Setup
-1. 가상환경 및 필수 라이브러리 설치 
+1. 저장소 클론
+\```bash
+git clone https://github.com/pes23/research-assistant-ADK.git
+cd research-assistant-ADK
+\```
+
+2. 가상환경 설치
 \```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 3. 환경변수 설정
-\```bash
 cp .env.example .env
 # .env 파일에 GEMINI_API_KEY 입력
-# Gemini API 키 발급: https://aistudio.google.com/apikey
+\```
 
 4. PDF 논문 추가
-\```bash
 # data/ 폴더에 분석할 PDF 파일 저장
 
 5. 실행
-\```bash
 python main.py --pdf data/your_paper.pdf
 
 ## Example Queries
