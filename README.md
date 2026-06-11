@@ -39,13 +39,7 @@ research-assistant-ADK/
 5. Exception Handling & Recovery: API 호출 실패 시 retry, exponential backoff. 재시도 성공 시 정상 응답하며 최대 횟수 초과 시 Fallback 메시지를 출력한다.
 
 ## Setup
-1. 저장소 클론
-\```bash
-git clone https://github.com/pes23/research-assistant-ADK.git
-cd research-assistant-ADK
-\```
-
-2. 가상환경 설치
+1. 가상환경 & 필수 라이브러리 설치
 \```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
